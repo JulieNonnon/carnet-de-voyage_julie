@@ -1,0 +1,33 @@
+button{
+    border: 1px solid red;
+    background-color: var(--colorBloc);
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width:390px){
+
+    button{
+        width: 74px;
+        height: 74px;
+        top: 0;
+    }
+
+    img{
+        width: 14px;
+        height: 14px;
+    }
+
+}
