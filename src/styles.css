@@ -4,3 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1, h2 {
+    font-family: 'Lora', serif;
+    font-size: 60px;
+}
+
+/* font-family: 'Inter', sans-serif; */
