@@ -1,0 +1,29 @@
+<main>
+
+
+    <h1>Autres articles</h1>
+
+    <div class="wrap">
+
+        <div class="mainContent" *ngFor="let item of Articles">
+
+            <div class="legendPhoto">
+                <img src="{{ item.mainPicture }}">
+            </div>
+
+            <div class="legendInfo">
+                <div class="legendPlace">
+                    <p class="place1">{{ item.country }}</p>
+                    <p class="place2">{{ item.town }}</p>
+                </div>
+                <div class="legendDate">
+                    <p>Du {{ item.dateToGo }}</p>
+                    <p>au {{ item.dateToReturn }}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
