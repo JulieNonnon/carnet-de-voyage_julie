@@ -1,16 +1,25 @@
 header{
     width: 157px;
     height: 100vh;
+    background-color: var(--colorHeader);
     border: 5px grey solid;
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
 
 }
 
 .rotate{
     transform: rotate(-90deg);
     border: 1px red solid;
+}
+
+.navTitle{
+    font-size: 30px;
+}
+
+.navAPI{
+    font-size: 16px;
 }
 
 .headerContent{
