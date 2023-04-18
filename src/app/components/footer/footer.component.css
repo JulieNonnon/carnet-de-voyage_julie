@@ -1,0 +1,11 @@
+footer{
+    width: 100vh;
+    height: 308px;
+    border: 5px blue solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 157px;
+}
