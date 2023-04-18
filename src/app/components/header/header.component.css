@@ -1,0 +1,19 @@
+header{
+    width: 157px;
+    height: 100vh;
+    border: 5px grey solid;
+    position: relative;
+
+}
+
+.rotate{
+    transform: rotate(-90deg);
+border: 1px red solid;
+}
+
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
