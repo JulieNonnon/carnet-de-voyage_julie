@@ -35,7 +35,7 @@ h1{
     height: 118px;
     width: 100%;
     /* border: solid 2px red; */
-    background-color: rgb(165, 42, 42);
+    background-color: var(--colorBloc);
     display: flex;
     justify-content: space-between;
     align-items: center;

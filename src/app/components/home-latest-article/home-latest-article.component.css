@@ -28,7 +28,7 @@ img{
     height: 118px;
     width: 100%;
     /* border: solid 2px red; */
-    background-color: rgb(165, 42, 42, 0.5);
+    background-color: rgb(201, 107, 65, 0.7);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@ img{
 
 .legendPlace, .legendDate{
     display: flex;
-    color: white;
+    color: var(--colorTextBloc);
     padding: 38px 50px;
 }
 
@@ -49,5 +49,5 @@ img{
 .legendDate{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    border-left: white solid 1px;
+    border-left: var(--colorTextBloc) solid 1px;
 }
