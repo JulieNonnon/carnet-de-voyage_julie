@@ -3,12 +3,14 @@ header{
     height: 100vh;
     border: 5px grey solid;
     position: fixed;
+    top: 0;
+    left:0;
 
 }
 
 .rotate{
     transform: rotate(-90deg);
-border: 1px red solid;
+    border: 1px red solid;
 }
 
 .headerContent{

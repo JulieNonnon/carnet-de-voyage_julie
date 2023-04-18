@@ -1,0 +1,67 @@
+main{
+    margin-left: 157px;
+}
+
+img{
+    width: 70vh;
+    height: 500px;
+}
+
+h1{
+    margin: 208px 0 44px 0;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mainContent{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70.4vh; 
+    /* border: solid 2px red; */
+}
+
+.legendPhoto{
+    width: 143vh;
+}
+
+.legendInfo{
+    position: absolute;
+    bottom: 0;
+    height: 118px;
+    width: 100%;
+    /* border: solid 2px red; */
+    background-color: rgb(165, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.legendPlace, .legendDate{
+    color: white;
+    padding: 38px 50px;
+}
+
+.legendPlace{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+.place1{
+    font-size: 24px;
+}
+
+.place2{
+    font-size: 16px;
+}
+
+.legendDate{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border-left: white solid 1px;
+}
