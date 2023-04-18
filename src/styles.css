@@ -5,9 +5,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --colorBloc: #C96B41;
+    --colorHeader: #EEDFD4;
+    --colorTextCasual: #000000;
+    --colorTextBloc: #FFFFFF;
+  }
+
 h1, h2 {
     font-family: 'Lora', serif;
     font-size: 60px;
 }
 
 /* font-family: 'Inter', sans-serif; */
+
