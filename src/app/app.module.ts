@@ -9,6 +9,7 @@ import { HomeLatestArticleComponent } from './components/home-latest-article/hom
 import { HomeOtherArticlesComponent } from './components/home-other-articles/home-other-articles.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ArticleComponent } from './pages/article/article.component';
+import { BackButtonComponent } from './components/back-button/back-button.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ArticleComponent } from './pages/article/article.component';
     HomeLatestArticleComponent,
     HomeOtherArticlesComponent,
     HomeComponent,
-    ArticleComponent
+    ArticleComponent,
+    BackButtonComponent
     
   ],
   imports: [
