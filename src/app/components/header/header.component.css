@@ -2,7 +2,7 @@ header{
     width: 157px;
     height: 100vh;
     border: 5px grey solid;
-    position: relative;
+    position: fixed;
 
 }
 
