@@ -17,9 +17,15 @@ h1, h2 {
     font-size: 60px;
 }
 
+p{
+    font-family: 'Inter', sans-serif;
+}
+
 a{
     text-decoration: none;
     color: var(--colorTextCasual);
 }
-/* font-family: 'Inter', sans-serif; */
+
+
+
 
