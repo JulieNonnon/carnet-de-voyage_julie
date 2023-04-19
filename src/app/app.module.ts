@@ -13,6 +13,7 @@ import { BackButtonComponent } from './components/back-button/back-button.compon
 import { TravelIntroComponent } from './components/travel-intro/travel-intro.component';
 import { TravelPitchComponent } from './components/travel-pitch/travel-pitch.component';
 import { TravelReviewComponent } from './components/travel-review/travel-review.component';
+import { TravelMoreComponent } from './components/travel-more/travel-more.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { TravelReviewComponent } from './components/travel-review/travel-review.
     BackButtonComponent,
     TravelIntroComponent,
     TravelPitchComponent,
-    TravelReviewComponent
+    TravelReviewComponent,
+    TravelMoreComponent
     
   ],
   imports: [

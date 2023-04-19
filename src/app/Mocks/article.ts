@@ -23,7 +23,16 @@ export const ARTICLES: IArticle [] = [
     dateToGo: "14.04.22",
     dateToReturn: "17.05.22",
     mainPicture: "assets/images/Image_Albanie.png",
-    minorPictureArray: ["assets/images/Image_Albanie.png"],
+    minorPictureArray: [
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png",
+        "assets/images/Image_Albanie.png"
+    ],
     travelPitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac. Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
     prosArray: [
         "Un pays très simple à sillonner, sans embrouilles ni complexité", 
@@ -48,7 +57,16 @@ export const ARTICLES: IArticle [] = [
     dateToGo: "14.04.22",
     dateToReturn: "17.05.22",
     mainPicture: "assets/images/Image_Grece.png",
-    minorPictureArray: ["assets/images/Image_Grece.png"],
+    minorPictureArray: [
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png",
+        "assets/images/Image_Grece.png"
+    ],
     travelPitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac. Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
     prosArray: [
         "Un pays très simple à sillonner, sans embrouilles ni complexité", 
@@ -73,7 +91,16 @@ export const ARTICLES: IArticle [] = [
     dateToGo: "14.04.22",
     dateToReturn: "17.05.22",
     mainPicture: "assets/images/Image_Guatemala.png",
-    minorPictureArray: ["assets/images/Image_Guatemala.png"],
+    minorPictureArray: [
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png",
+        "assets/images/Image_Guatemala.png"
+    ],
     travelPitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac. Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
     prosArray: [
         "Un pays très simple à sillonner, sans embrouilles ni complexité", 
@@ -98,7 +125,16 @@ export const ARTICLES: IArticle [] = [
     dateToGo: "14.04.22",
     dateToReturn: "17.05.22",
     mainPicture: "assets/images/Image_Tunisie_tunis.png",
-    minorPictureArray: ["assets/images/Image_Tunisie_tunis.png"],
+    minorPictureArray: [
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png",
+        "assets/images/Image_Tunisie_tunis.png"
+    ],
     travelPitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac. Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
     prosArray: [
         "Un pays très simple à sillonner, sans embrouilles ni complexité", 
@@ -123,7 +159,16 @@ export const ARTICLES: IArticle [] = [
     dateToGo: "14.04.22",
     dateToReturn: "17.05.22",
     mainPicture: "assets/images/Image_Tunisie_eljem.png",
-    minorPictureArray: ["assets/images/Image_Tunisie_eljem.png"],
+    minorPictureArray: [
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png",
+        "assets/images/Image_Tunisie_eljem.png"
+    ],
     travelPitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac. Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.",
     prosArray: [
         "Un pays très simple à sillonner, sans embrouilles ni complexité", 
