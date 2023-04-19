@@ -14,6 +14,7 @@ import { TravelIntroComponent } from './components/travel-intro/travel-intro.com
 import { TravelPitchComponent } from './components/travel-pitch/travel-pitch.component';
 import { TravelReviewComponent } from './components/travel-review/travel-review.component';
 import { TravelMoreComponent } from './components/travel-more/travel-more.component';
+import { TravelSumUpComponent } from './components/travel-sum-up/travel-sum-up.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { TravelMoreComponent } from './components/travel-more/travel-more.compon
     TravelIntroComponent,
     TravelPitchComponent,
     TravelReviewComponent,
-    TravelMoreComponent
+    TravelMoreComponent,
+    TravelSumUpComponent
     
   ],
   imports: [
