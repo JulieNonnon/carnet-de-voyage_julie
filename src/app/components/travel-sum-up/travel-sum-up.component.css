@@ -1,0 +1,17 @@
+main{
+    margin-left: 157px;
+    
+}
+
+p{
+    font-size: 20px;
+    color: var(--colorTextBloc);
+}
+
+.sumUpBloc{
+    background-color: var(--colorBloc);
+    width: 142vh;
+    height: fit-content;
+    margin: 44px 0 113px 0;
+    padding: 69px 56px
+}
