@@ -2,22 +2,26 @@
 
     <div class="mainContent">
 
-        <div class="legendPhoto">
-            <img src="{{ Articles.mainPicture }}">
-        </div>
+        <a routerLink="/article/{{Articles.id}}">
 
-        <div class="legendInfo">
-            <div class="legendPlace">
-                <p>{{ Articles.country }}</p>
-                <p> - </p>
-                <p>{{ Articles.town }}</p>
+            <div class="legendPhoto">
+                <img src="{{ Articles.mainPicture }}">
             </div>
-            <div class="legendDate">
-                <p>{{ Articles.dateToGo }}</p>
-                <p>·</p>
-                <p>{{ Articles.dateToReturn }}</p>
+
+            <div class="legendInfo">
+                <div class="legendPlace">
+                    <p>{{ Articles.country }}</p>
+                    <p> - </p>
+                    <p>{{ Articles.town }}</p>
+                </div>
+                <div class="legendDate">
+                    <p>{{ Articles.dateToGo }}</p>
+                    <p>·</p>
+                    <p>{{ Articles.dateToReturn }}</p>
+                </div>
             </div>
-        </div>
+
+        </a>
 
     </div>
 

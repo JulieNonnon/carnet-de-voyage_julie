@@ -7,20 +7,25 @@
 
         <div class="mainContent" *ngFor="let item of Articles">
 
-            <div class="legendPhoto">
-                <img src="{{ item.mainPicture }}">
-            </div>
+            <a routerLink="/article/{{item.id}}">
+                
+                
+                <div class="legendPhoto">
+                    <img src="{{ item.mainPicture }}">
+                </div>
 
-            <div class="legendInfo">
-                <div class="legendPlace">
-                    <p class="place1">{{ item.country }}</p>
-                    <p class="place2">{{ item.town }}</p>
+                <div class="legendInfo">
+                    <div class="legendPlace">
+                        <p class="place1">{{ item.country }}</p>
+                        <p class="place2">{{ item.town }}</p>
+                    </div>
+                    <div class="legendDate">
+                        <p>Du {{ item.dateToGo }}</p>
+                        <p>au {{ item.dateToReturn }}</p>
+                    </div>
                 </div>
-                <div class="legendDate">
-                    <p>Du {{ item.dateToGo }}</p>
-                    <p>au {{ item.dateToReturn }}</p>
-                </div>
-            </div>
+
+            </a>
 
         </div>
 

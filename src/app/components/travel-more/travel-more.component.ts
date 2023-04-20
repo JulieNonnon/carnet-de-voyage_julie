@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ARTICLES, IArticle } from 'src/app/Mocks/article';
+import { Component, Input } from '@angular/core';
+import { ARTICLES, IArticle, IMinorPicture } from 'src/app/Mocks/article';
 
 @Component({
   selector: 'app-travel-more',
@@ -8,6 +8,6 @@ import { ARTICLES, IArticle } from 'src/app/Mocks/article';
 })
 export class TravelMoreComponent {
 
-  Articles: IArticle[] = ARTICLES;
+  @Input() dataMinorPictures!: IMinorPicture[];
 
 }

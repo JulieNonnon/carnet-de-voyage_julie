@@ -1,7 +1,17 @@
-main{
+/* main{
     margin-left: 157px;
-}
+} */
 
 .mainContent{
     margin: 44px 0 113px 0;
+}
+
+.moreBloc{
+    margin: 44px 0 83px 0;
+    gap: 35px;
+}
+
+img{
+    width: 20.8vw;
+    height: 20.8vw;
 }

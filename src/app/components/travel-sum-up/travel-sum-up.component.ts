@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { ARTICLES, IArticle } from 'src/app/Mocks/article';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-travel-sum-up',
@@ -8,6 +7,6 @@ import { ARTICLES, IArticle } from 'src/app/Mocks/article';
 })
 export class TravelSumUpComponent {
 
-  Articles: IArticle = ARTICLES[ARTICLES.length-1];
+  @Input() dataTravelSumUp!: string;
 
 }

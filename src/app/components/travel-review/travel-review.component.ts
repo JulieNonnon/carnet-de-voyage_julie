@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ARTICLES, IArticle } from 'src/app/Mocks/article';
+import { Component, Input } from '@angular/core';
+import { ARTICLES, IAdvices, IArticle, ICons, IPros } from 'src/app/Mocks/article';
 
 @Component({
   selector: 'app-travel-review',
@@ -8,6 +8,8 @@ import { ARTICLES, IArticle } from 'src/app/Mocks/article';
 })
 export class TravelReviewComponent {
 
-  Articles: IArticle = ARTICLES[ARTICLES.length-1];
+  @Input() dataPros!: IPros[];
+  @Input() dataCons!: ICons[];
+  @Input() dataAdvices!: IAdvices[];
 
 }
