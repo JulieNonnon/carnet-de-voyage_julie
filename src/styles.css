@@ -12,6 +12,10 @@
     --colorTextBloc: #FFFFFF;
   }
 
+main{
+    margin-left: 157px;  
+}
+
 h1, h2 {
     font-family: 'Lora', serif;
     font-size: 60px;

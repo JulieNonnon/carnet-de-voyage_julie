@@ -5,8 +5,10 @@
         
         <h2>Pour voyager un peu plus</h2>
 
-        <div class="moreBloc" *ngFor="let item of Articles, let index = index">
-            <img src="{{ item.minorPictureArray[index] }}">
+        <div class="moreBloc" >
+            <img *ngFor="let item of dataMinorPictures" src="{{ item.image }}" alt="{{ item.title }}">
         </div>
+
+    <!-- on appelle les 2 parametres "image" et "title" créés dans notre mini-interface IMonorPicture, lui même utilisé comme typage de notre interface principale IArticle (voir article.ts) -->
 
     </div>

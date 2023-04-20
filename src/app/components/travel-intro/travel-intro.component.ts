@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { ARTICLES, IArticle } from 'src/app/Mocks/article';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-travel-intro',
@@ -8,6 +7,13 @@ import { ARTICLES, IArticle } from 'src/app/Mocks/article';
 })
 export class TravelIntroComponent {
 
-  Articles: IArticle = ARTICLES[ARTICLES.length-1];
+  // Import des données que j'ai besoin depuis le parent (page article)
+
+  @Input() dataCountry!: string;
+  @Input() dataTown!: string;
+  @Input() dataDateToGo!: string;
+  @Input() dataDateToReturn!: string;
+  @Input() dataMainPicture!: string;
+
 
 }

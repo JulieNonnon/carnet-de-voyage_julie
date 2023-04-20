@@ -1,13 +1,35 @@
-<p>article works!</p>
+
 
 <app-back-button></app-back-button>
 
-<app-travel-intro></app-travel-intro>
+<section>
 
-<app-travel-pitch></app-travel-pitch>
+    <app-travel-intro 
+        [dataCountry]="articleInfo!.country" 
+        [dataTown]="articleInfo!.town"
+        [dataDateToGo]="articleInfo!.dateToGo"
+        [dataDateToReturn]="articleInfo!.dateToReturn"
+        [dataMainPicture]="articleInfo!.mainPicture">
+    </app-travel-intro>
 
-<app-travel-review></app-travel-review>
+    <app-travel-pitch
+        [dataTravelPitch]="articleInfo!.travelPitch">
+    </app-travel-pitch>
 
-<app-travel-sum-up></app-travel-sum-up>
 
-<app-travel-more></app-travel-more>
+    <app-travel-review
+        [dataPros]="articleInfo!.prosArray"
+        [dataCons]="articleInfo!.consArray"
+        [dataAdvices]="articleInfo!.adviceArray"
+        
+    ></app-travel-review>
+
+    <app-travel-sum-up
+        [dataTravelSumUp]="articleInfo!.travelSumUp">
+    </app-travel-sum-up>
+
+    <app-travel-more
+        [dataMinorPictures]="articleInfo!.minorPictureArray">
+    </app-travel-more>
+
+</section>

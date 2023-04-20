@@ -5,11 +5,11 @@ import { ArticleComponent } from './pages/article/article.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent},
-  { path: "article", component: ArticleComponent},
+  { path: "article/:id", component: ArticleComponent},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
