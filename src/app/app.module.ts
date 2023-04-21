@@ -15,6 +15,7 @@ import { TravelPitchComponent } from './components/travel-pitch/travel-pitch.com
 import { TravelReviewComponent } from './components/travel-review/travel-review.component';
 import { TravelMoreComponent } from './components/travel-more/travel-more.component';
 import { TravelSumUpComponent } from './components/travel-sum-up/travel-sum-up.component';
+import { HttpClientModule } from '@angular/common/http'
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { TravelSumUpComponent } from './components/travel-sum-up/travel-sum-up.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule // module pour requêtes Http (API)
   ],
   providers: [],
   bootstrap: [AppComponent]
