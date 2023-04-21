@@ -2,7 +2,16 @@
 
     <div class="headerContent">
         <div class="rotate navTitle"><a routerLink="/"> Carnet de voyages </a></div>
-        <div class="rotate navAPI"> API </div>
+        
+        <!-- API temperature -->
+        <div class="rotate navAPI"> 
+            
+            {{city?.address}}
+            <br>
+            {{city?.currentConditions?.temp}} °C
+        
+        </div>
+    
     </div>
 
 
