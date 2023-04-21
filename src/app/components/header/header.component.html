@@ -1,14 +1,15 @@
 <header>
 
     <div class="headerContent">
+        
         <div class="rotate navTitle"><a routerLink="/"> Carnet de voyages </a></div>
         
         <!-- API temperature -->
         <div class="rotate navAPI"> 
             
-            {{city?.address}}
+            {{city?.address | titlecase }}
             <br>
-            {{city?.currentConditions?.temp}} °C
+            🌞 {{city?.currentConditions?.temp}} °C
         
         </div>
     
