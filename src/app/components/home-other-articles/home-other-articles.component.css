@@ -1,10 +1,6 @@
-/* main{
-    margin-left: 157px;
-} */
-
 img{
-    width: 31.25rem;
-    height: 31.25rem;
+    width: 32.55vw;
+    height: 32.55vw;
 }
 
 h1{
@@ -25,15 +21,11 @@ h1{
     /* border: solid 2px red; */
 }
 
-/* .legendPhoto{
-    width: 143vh;
-} */
-
 .legendInfo{
     position: absolute;
     bottom: 0;
-    height: 7.375rem;
-    width: 31.25rem;
+    height: 6.90vw;
+    width: 32.55vw;
     /* border: solid 2px red; */
     background-color: var(--colorBloc);
     display: flex;

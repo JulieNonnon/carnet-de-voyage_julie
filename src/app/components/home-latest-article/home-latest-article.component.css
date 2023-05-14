@@ -11,14 +11,15 @@
 
 
 img{
-    width: 64.25rem;
+    width: 66.99vw;
+    height: 44.66vw;
 }
 
 .legendInfo{
     position: absolute;
     bottom: 0;
-    height: 118px;
-    width: 64.25rem;
+    height: 7.68vw;
+    width: 66.99vw;
     background-color: rgb(201, 107, 65, 0.7);
     
     display: flex;

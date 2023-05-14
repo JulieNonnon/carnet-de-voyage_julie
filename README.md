@@ -12,7 +12,7 @@ Evaluation selon 3 couches de difficultés :
 
 • Niveau 1 : Réaliser le site responsive sans données
 
-• Niveau 2 : Créer des données et afficher les pages et données de façon dynamique (voir sur Figma le layout "Données article"
+• Niveau 2 : Créer des données et afficher les pages et données de façon dynamique (voir sur Figma le layout "Données article")
 
 • Niveau 3 : Requêter une api pour afficher la température de façon dynamique (voir sur Figma le layout "Info API")
 
@@ -27,7 +27,12 @@ la configuration et mise en place de l'appel d'une API (ville + température),
 • Responsives.
 
 Les piqures de rappel concernant l’intérêt de l’utilisation des @Input et la configuration de l’appel d’une API ont été plus que bienvenue : j’ai beaucoup mieux compris ces notions qui étaient encore un peu floues pour moi.
+
+## Difficultés rencontrées
+
 Maladresse constatée: Le responsive aurait dû être considéré plus tôt dans la réalisation de ce projet, les ajustements ont pris plus de temps que souhaité.
+Le responsive de certains éléments de l'application ne s'appliquent pas correctement: l'entre-deux media (quand on reduit l'écran petit à petit) fait ressortir des défaults, comme le clamp (font-size) qui ne s'applique pas au bon moment, ou encore le flex-wrap des éléments gallerie d'images (son application donne l'impression de fonctionner à l'envers de ce qui est souhaité). 
+Je pense que le wrap n'était peut être pas la meilleure stratégie à adopter dans ces circonstances.
 
 ## Trello et organisation:
 
