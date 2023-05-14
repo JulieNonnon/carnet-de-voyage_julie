@@ -10,8 +10,25 @@ p{
 
 .sumUpBloc{
     background-color: var(--colorBloc);
-    width: 142vh;
+    width: 66.99vw;
     height: fit-content;
     margin: 44px 0 113px 0;
     padding: 69px 56px
+}
+
+@media (max-width: 490px) {
+
+
+    h2{
+        font-size: 26px; 
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .sumUpBloc{
+        width: 21.875rem;
+        padding: 21px;
+    }
 }

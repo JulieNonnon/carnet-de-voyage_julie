@@ -18,11 +18,13 @@ main{
 
 h1, h2 {
     font-family: 'Lora', serif;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: clamp(26px, 10vw, 60px);
 }
 
 p{
     font-family: 'Inter', sans-serif;
+    font-size: clamp(18x, 2vw, 20px);
 }
 
 a{
@@ -30,6 +32,10 @@ a{
     color: var(--colorTextCasual);
 }
 
-
+@media (max-width: 490px) {
+    main{
+        margin-left: 0;  
+    }
+}
 
 

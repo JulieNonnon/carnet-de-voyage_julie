@@ -8,10 +8,27 @@ p{
 }
 
 img{
-    width: 142vh;
+    width: 66.99vw;
+    height: 44.66vw;
     margin: 44px 0 115px 0;
 }
 
 .legendPlace{
     margin-top: 69px;
+}
+
+@media (max-width: 490px) {
+
+    img{
+        width: 21.875rem;
+        height: 21.875rem;
+    }
+
+    h1{
+        font-size: 26px; 
+    }
+
+    p{
+        font-size: 14px;
+    }
 }

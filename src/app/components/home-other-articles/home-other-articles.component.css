@@ -3,8 +3,8 @@
 } */
 
 img{
-    width: 70vh;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
 }
 
 h1{
@@ -12,6 +12,7 @@ h1{
 }
 
 .wrap{
+    width: 65rem; 
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -21,19 +22,18 @@ h1{
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 70.4vh; 
     /* border: solid 2px red; */
 }
 
-.legendPhoto{
+/* .legendPhoto{
     width: 143vh;
-}
+} */
 
 .legendInfo{
     position: absolute;
     bottom: 0;
-    height: 118px;
-    width: 100%;
+    height: 7.375rem;
+    width: 31.25rem;
     /* border: solid 2px red; */
     background-color: var(--colorBloc);
     display: flex;
@@ -64,4 +64,48 @@ h1{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     border-left: white solid 1px;
+}
+
+@media (max-width: 490px) {
+
+    .mainContent{
+        width: 1.25rem;
+    }
+
+    h1{
+        margin: 76px 0 35px 0;
+    }
+
+    img{
+        width: 21.875rem;
+        height: 21.875rem;
+    }
+
+    .legendInfo{
+        width: 21.875rem;
+        height: 4.375rem;
+    }
+
+    .legendPlace{
+        font-size: 15px;
+    }
+
+    .legendDate{
+        font-size: 10px;
+    }
+
+    .legendPlace, .legendDate{
+        padding: 25px 16px;
+    }
+
+    .wrap{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .mainContent{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        /* border: solid 2px red; */
+    }
 }

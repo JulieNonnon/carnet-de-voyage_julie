@@ -1,11 +1,26 @@
 footer{
-    width: 100vh;
-    height: 308px;
-    border: 5px blue solid;
+    width: 84.875rem;
+    height: 19.25rem;
+    /* border: 5px blue solid; */
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin-left: 157px;
+}
+
+footer p{
+    font-size: 24px;
+    font-family: 'Lora', serif;
+}
+
+@media (max-width: 490px) {
+
+    footer{
+        width: 21.75rem;
+        height: 7.375rem;
+        margin-left: 0;
+    }
+
 }

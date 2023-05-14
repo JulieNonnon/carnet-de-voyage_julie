@@ -1,3 +1,9 @@
 section{
-    margin: 165px;
+    margin: 10.74vw;
+}
+
+@media (max-width: 490px) {
+section{
+    margin: 114px 20px 76px 20px;
+}
 }
