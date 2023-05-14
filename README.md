@@ -1,27 +1,45 @@
-# CarnetDeVoyageJulie
+# Carnet De Voyage - Julie
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+## Description du projet:
 
-## Development server
+Projet Angular individuel: Réalisation d'une app responsive d'un carnet de voyage sur 2 pages (home et article) 
+• Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses photos et astuces de voyage.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Modalités:
 
-## Code scaffolding
+Evaluation selon 3 couches de difficultés :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+• Niveau 1 : Réaliser le site responsive sans données
 
-## Build
+• Niveau 2 : Créer des données et afficher les pages et données de façon dynamique (voir sur Figma le layout "Données article"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+• Niveau 3 : Requêter une api pour afficher la température de façon dynamique (voir sur Figma le layout "Info API")
 
-## Running unit tests
+## Rappel de notions:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+• @Input:
+ Pour mise à jour des composant enfant (différents blocs composant l'article) dans la page parent (page article), 
+ 
+• Appel d'une API:
+la configuration et mise en place de l'appel d'une API (ville + température), 
 
-## Running end-to-end tests
+• Responsives.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Les piqures de rappel concernant l’intérêt de l’utilisation des @Input et la configuration de l’appel d’une API ont été plus que bienvenue : j’ai beaucoup mieux compris ces notions qui étaient encore un peu floues pour moi.
+Maladresse constatée: Le responsive aurait dû être considéré plus tôt dans la réalisation de ce projet, les ajustements ont pris plus de temps que souhaité.
 
-## Further help
+## Trello et organisation:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Une journée complète a été consacrée pour l’organisation de mon Trello, ce qui a été très bénéfique pour la suite. Le suivre de la façon la plus assidue possible m’a véritablement aidé dans mon organisation et surtout ma gestion du temps.
+Ci dessous les différentes captures d'écran du Trello sur un suivi de 5 jours:
+
+• Jour 1:
+
+• Jour 2:
+
+• Jour 3:
+
+• Jour 4:
+
+• Jour 5:
+
