@@ -2,7 +2,8 @@
 
 ## Description du projet:
 
-Projet Angular individuel: Réalisation d'une app responsive d'un carnet de voyage sur 2 pages (home et article) 
+Projet Angular individuel: Réalisation d'une app responsive d'un carnet de voyage sur 2 pages (home et article)
+
 • Une photographe et globe trotteuse souhaite un blog pour pouvoir partager ses photos et astuces de voyage.
 
 ## Modalités:
@@ -34,7 +35,8 @@ Une journée complète a été consacrée pour l’organisation de mon Trello, c
 Ci dessous les différentes captures d'écran du Trello sur un suivi de 5 jours:
 
 • Jour 1:
-
+![alt text](src\assets\images\trello1.png)
+ <img src="src\assets\images\trello1.png" width="350">
 • Jour 2:
 
 • Jour 3:
