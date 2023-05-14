@@ -35,13 +35,22 @@ Une journée complète a été consacrée pour l’organisation de mon Trello, c
 Ci dessous les différentes captures d'écran du Trello sur un suivi de 5 jours:
 
 • Jour 1:
-![alt text](src\assets\images\trello1.png)
- <img src="src\assets\images\trello1.png" width="350">
+<p>
+ <img src="src\assets\images\trello1.png" width="600">
+</p>
 • Jour 2:
-
+<p>
+ <img src="src\assets\images\trello2.png" width="600">
+</p>
 • Jour 3:
-
+<p>
+ <img src="src\assets\images\trello3.png" width="600">
+</p>
 • Jour 4:
-
+<p>
+ <img src="src\assets\images\trello4.png" width="600">
+</p>
 • Jour 5:
-
+<p>
+ <img src="src\assets\images\trello5.png" width="600">
+</p>
