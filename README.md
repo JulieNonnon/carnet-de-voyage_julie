@@ -16,6 +16,16 @@ Evaluation selon 3 couches de difficultés :
 
 • Niveau 3 : Requêter une api pour afficher la température de façon dynamique (voir sur Figma le layout "Info API")
 
+⚠️ Pour le bon fonctionnement de l'app, nécessite la création d'un dossier "environments" à la source et un fichier "environment.ts" avec les informations suivantes:
+
+export const environment = {
+    title: "mon carnet de voyage",
+    weatherApi: {
+        url: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline",
+        token: "renseigner le token entre guillements"
+    }
+}
+
 ## Rappel de notions:
 
 • @Input:
