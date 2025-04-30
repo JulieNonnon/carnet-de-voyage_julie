@@ -31,9 +31,5 @@ export class WeatherService {
     const url = `${this.weatherApiUrl}/el%20jem/today?unitGroup=metric&key=${this.token}&contentType=json`
 
     return this.http.get<LocationResponse>(url);  
-    
-
-}
-
-
+  }
 }
