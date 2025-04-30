@@ -48,7 +48,7 @@ jobs:
           echo "  }" >> src/environments/environment.ts
           echo "};" >> src/environments/environment.ts
       - name: Build app
-        run: npm run build -- --base-href=/carnet-de-voyage_julie/
+        run: npm run build -- --base-href=/carnet-de-voyage_julie/ --configuration=production --project=carnet-de-voyage_julie
       - name: Copy index.html to 404.html
         run: cp dist/carnet-de-voyage_julie/index.html dist/carnet-de-voyage_julie/404.html
       - name: Setup Pages
