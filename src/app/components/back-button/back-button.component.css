@@ -1,8 +1,8 @@
 button{
     border: none;
     background-color: var(--colorBloc);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: fixed;
     bottom: 0;
     right: 0;
